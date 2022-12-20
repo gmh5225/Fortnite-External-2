@@ -1,2 +1,2 @@
 # Fortnite-External
-Fortnite Extenral Base, Made by LeProxy
+Fortnite External Base, Made by LeProxy
