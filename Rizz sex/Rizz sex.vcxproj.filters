@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{d60aa474-6169-4625-bdd3-bae4ecbdd5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testing driver">
+      <UniqueIdentifier>{ad9bfade-3b8d-473c-b574-d27d2a9568bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{32e07b30-9b05-4192-8577-d9bcf485a029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FN Utils">
+      <UniqueIdentifier>{cfafac44-8bc8-4c20-85c7-fb0ab63e2bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window Utils">
+      <UniqueIdentifier>{b4fd014d-9bef-4c7f-b3bc-515f65fcc166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{93b24d57-87d3-4df9-b760-2c3f880632a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fnentry.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Godfather\PEauth.h">
+      <Filter>testing driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Godfather\driver_utils.h">
+      <Filter>testing driver</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\overlay.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Window Utils\SkStr.h">
+      <Filter>Window Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Window Utils\Vector.h">
+      <Filter>Window Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FN Utils\FN_Utils.h">
+      <Filter>FN Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FN Utils\settings.h">
+      <Filter>FN Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FN Utils\includes.h">
+      <Filter>FN Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Window Utils\xor.h">
+      <Filter>Window Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx9.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
