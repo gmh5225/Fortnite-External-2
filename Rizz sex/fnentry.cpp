@@ -536,15 +536,15 @@ void DrawFN()
 		if (Settings_options.Esp || distance <= Settings_options.esp_distance || IsInScreen(Neck))
 		{
 			if (Settings_options.corner) {
-				Overlay::cheat::DrawCornerBox(Headbox.x - (CornerWidth / 2), Headbox.y, CornerWidth, CornerHeight, 2.9, &Col.black);
+				Overlay::cheat::DrawCornerBox(Headbox.x - (CornerWidth / 2), Headbox.y, CornerWidth, CornerHeight, 2.9, &ESPColorSkill);
 			}
 
 			if (Settings_options.box) {
-				Overlay::cheat::DrawRect(Headbox.x - (CornerWidth / 2), Headbox.y, CornerWidth, CornerHeight, 0.5, &Col.black);
+				Overlay::cheat::DrawRect(Headbox.x - (CornerWidth / 2), Headbox.y, CornerWidth, CornerHeight, 0.5, &ESPColorSkill);
 			}
 
 			if (Settings_options.snaplines)	{
-				Overlay::cheat::DrawSnapline(Width / 2, Height, root.x, root.y, 0.7, &Col.black);
+				Overlay::cheat::DrawSnapline(Width / 2, Height, root.x, root.y, 0.7, &ESPColorSkill);
 			}
 		}
 
